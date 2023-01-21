@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6036707501902984004}
   m_Layer: 7
   m_Name: EnemyBullet
-  m_TagString: Untagged
+  m_TagString: BulletEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -148,3 +148,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   direction: 1
+  explosionPrefab: {fileID: 7150491205619724150, guid: 0037ee19fc0b5b6408c54b49319232a8, type: 3}
+  power: 1

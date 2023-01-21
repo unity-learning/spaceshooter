@@ -9,6 +9,7 @@ public class EnemyShipController : MonoBehaviour
     public GameObject bulletPrefab;
     public Vector2 timeToFire;
     public GameObject gun;
+    public int power;
 
     private int direction = 0 ;
 

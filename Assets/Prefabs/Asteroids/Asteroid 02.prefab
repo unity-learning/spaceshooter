@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4730294547665219500}
   m_Layer: 7
   m_Name: Asteroid 02
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,6 +105,7 @@ MonoBehaviour:
   rotationSpeed: 45
   health: 4
   explosionPrefab: {fileID: 6715308831521728866, guid: 26e27402d7e8b9f4a90e4ce731fbc50c, type: 3}
+  healthSprite: []
 --- !u!58 &4730294547665219501
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 6939813453675170833}
   m_Layer: 7
   m_Name: EnemyMothership
-  m_TagString: Untagged
+  m_TagString: ShipEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,8 +129,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017986650bb35ea42b41e97f6a1b8c07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vSpeed: 0.5
+  vSpeed: 0.1
   hSpeed: 10
   bulletPrefab: {fileID: 6036707501902984003, guid: ccf7d16deed33b34582230499e32686d, type: 3}
   timeToFire: {x: 0.5, y: 0.5}
   gun: {fileID: 6939813453308245304}
+  power: 0

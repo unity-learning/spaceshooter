@@ -244,8 +244,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -522868921
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: db1c684e40b5aca4385d2c3d38ffaf71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -275,7 +275,7 @@ MonoBehaviour:
   guns:
   - {fileID: 4737259858408019255}
   - {fileID: 7585775970469506925}
-  fireRate: 0.3
+  fireRate: 0.75
   flameAnimation: {fileID: 6077834032376924916}
   _health: 3
 --- !u!61 &5618673813787069385

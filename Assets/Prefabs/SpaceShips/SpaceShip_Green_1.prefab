@@ -275,8 +275,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -522868921
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 306553dcd3c42d747a4607c9670362ca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -305,7 +305,7 @@ MonoBehaviour:
   bullet: {fileID: 6484855178877629629, guid: 1b6e0c52955acca41ad773af5a8309d0, type: 3}
   guns:
   - {fileID: 9076162756794151060}
-  fireRate: 0.3
+  fireRate: 0.7
   flameAnimation: {fileID: 1615376060}
   _health: 3
 --- !u!61 &9076162756983353496

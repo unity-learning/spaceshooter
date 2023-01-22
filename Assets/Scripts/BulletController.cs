@@ -12,12 +12,18 @@ public class BulletController : MonoBehaviour
     public BulletDirection direction;
     public GameObject explosionPrefab;
     public int power;
+    public Sprite[] sprites;
 
     private Vector3 move = Vector3.down;
+    [SerializeField]
+    private SpriteRenderer spriteRenderer;
 
 
     private void Start()
     {
+
+        spriteRenderer.sprite = sprites[Random.Range(0, sprites.Length)];
+
         if (direction == BulletDirection.DOWN)
         {
             move = Vector3.down;

@@ -19,17 +19,48 @@ public class SpaceShipController : MonoBehaviour
     private int _health;
     private float lastShot = 0;
     private const string FLAME_ANIMATION = "speed";
+    private float v;
+    private float h;
 
-
-    private void Start()
+    public void FireBullet()
     {
-        
+        Fire();
     }
+
+    public void MoveUp()
+    {
+        v = 1;
+    }
+
+    public void MoveDown()
+    {
+        v = -1;
+    }
+
+    public void MoveLeft()
+    {
+        h = -1;
+    }
+
+    public void MoveRight()
+    {
+        h = 1;
+    }
+
+    public void StopMoving()
+    {
+        v = 0;
+        h = 0;
+    }
+
 
     private void Update()
     {
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        //h = Input.GetAxis("Horizontal");
+        //v = Input.GetAxis("Vertical");
+
+        CheckKeyboardInput();
+
         Vector3 move = new Vector3(h, v, 0) * speed * Time.deltaTime;
         transform.position += move;
         flameAnimation.SetFloat(FLAME_ANIMATION, move.sqrMagnitude);
@@ -40,14 +71,25 @@ public class SpaceShipController : MonoBehaviour
         }
     }
 
+    private void CheckKeyboardInput()
+    {
+        if (Input.GetKeyDown(KeyCode.UpArrow)) { MoveUp(); }
+        if (Input.GetKeyDown(KeyCode.DownArrow)) { MoveDown(); }
+        if (Input.GetKeyDown(KeyCode.LeftArrow)) { MoveLeft(); }
+        if (Input.GetKeyDown(KeyCode.RightArrow)) { MoveRight(); }
+
+        if (Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow)) { StopMoving(); }
+    }
+
     private void Fire()
     {
-        if(Time.time > fireRate + lastShot) {
+        if (Time.time > fireRate + lastShot)
+        {
             for (int i = 0; i < guns.Length; i++)
             {
                 Instantiate(bullet, guns[i].transform.position, Quaternion.identity);
             }
-                lastShot = Time.time;
+            lastShot = Time.time;
         }
     }
 
@@ -86,4 +128,6 @@ public class SpaceShipController : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+
 }

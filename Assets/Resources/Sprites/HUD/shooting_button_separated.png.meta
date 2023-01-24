@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,448 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: shooting_button_separated_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 968
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156b5307febd9654bbc7b63dbea6acb7
+      internalID: 1921565142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 644
+        width: 598
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e4d7d1eff70a8448baa720d37b3f47
+      internalID: -1146526401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_2
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 675
+        width: 516
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a85b467911aa54386e8fd54606ba34
+      internalID: -1913512584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_3
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 669
+        width: 528
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b991619c3af4543b9f15afef0ce40a
+      internalID: 1782623517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_4
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 837
+        width: 302
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6269c2cfaef52c342b9d210d1b342cc6
+      internalID: -1847237505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 950
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887d9a6338174c244b028f79da6449f2
+      internalID: -1510245198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 924
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf218112b732ab7429bc2237a7bd68cd
+      internalID: 1004159444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 912
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654c2b0806a403d4fa21d537a493be69
+      internalID: 726813759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 893
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dc0d3c164cfa640ac70d56efbb2797
+      internalID: 506973516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_10
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 643
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16bad062827ed14bbc300854eeaa412
+      internalID: -1587322073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_11
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 640
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbfeab0fb4ab6d40a35cc94f4bf1b4b
+      internalID: 760753414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_12
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 624
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e7b01e18b344642932418bd8cb739f
+      internalID: -425616183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_13
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 640
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d063ed33cd292584b83a4eb05b2a6f94
+      internalID: 795236231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_14
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 643
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337adb45c55bab24c95220a8e5ec0ffa
+      internalID: -1449267351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_15
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 256
+        width: 234
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808f4bc665032ec44933103393e0aceb
+      internalID: -1361940173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_16
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 488
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056b371185094b54cae012ead2cd9d25
+      internalID: 1310999833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_17
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 465
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712e34c335c68a3458971a643ddb8c19
+      internalID: 1591614762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_18
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 328
+        width: 94
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920ea57a45ef5594eac0e8ee6f807511
+      internalID: 1627712753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_19
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 220
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326e7e3965dd7964c8617fa0d6fcb933
+      internalID: 2020922992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_20
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 222
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc04f01094ce48146a1240948de47ef4
+      internalID: 1326932940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooting_button_separated_21
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 220
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f994e8b717f2f41a8cce82ffde4a65
+      internalID: -1698868295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +555,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shooting_button_separated_13: 795236231
+      shooting_button_separated_8: 726813759
+      shooting_button_separated_10: -1587322073
+      shooting_button_separated_15: -1361940173
+      shooting_button_separated_21: -1698868295
+      shooting_button_separated_7: 1004159444
+      shooting_button_separated_12: -425616183
+      shooting_button_separated_6: -1510245198
+      shooting_button_separated_0: 1921565142
+      shooting_button_separated_20: 1326932940
+      shooting_button_separated_5: 1422470191
+      shooting_button_separated_19: 2020922992
+      shooting_button_separated_11: 760753414
+      shooting_button_separated_2: -1913512584
+      shooting_button_separated_14: -1449267351
+      shooting_button_separated_18: 1627712753
+      shooting_button_separated_17: 1591614762
+      shooting_button_separated_1: -1146526401
+      shooting_button_separated_3: 1782623517
+      shooting_button_separated_4: -1847237505
+      shooting_button_separated_9: 506973516
+      shooting_button_separated_16: 1310999833
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

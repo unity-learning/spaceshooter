@@ -15,12 +15,15 @@ public class AsteroidController : MonoBehaviour
     private Animator anim;
     private string ANIMATION_NAME = "health";
     private SpriteRenderer spriteRender;
-
+    private GameController gameController;
+    private int initHealth;
 
     private void Awake()
     {
+        initHealth = health;
         anim = GetComponent<Animator>();
         spriteRender = GetComponent<SpriteRenderer>();
+        gameController = GameObject.FindObjectOfType<GameController>();
     }
 
     void Start()
@@ -46,9 +49,11 @@ public class AsteroidController : MonoBehaviour
     {
         if (health <= 0)
         {
+            gameController.AddScore(initHealth);
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
             Destroy(gameObject);
-        } else
+        }
+        else
         {
             DoAnimationOrChangeSprite();
         }

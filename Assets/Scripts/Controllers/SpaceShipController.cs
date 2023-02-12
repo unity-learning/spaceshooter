@@ -22,6 +22,8 @@ public class SpaceShipController : MonoBehaviour
     private float v;
     private float h;
 
+    private GameController gameController;
+
     public void FireBullet()
     {
         Fire();

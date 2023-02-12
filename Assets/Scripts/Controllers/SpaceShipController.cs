@@ -55,6 +55,11 @@ public class SpaceShipController : MonoBehaviour
         h = 0;
     }
 
+    private void Start()
+    {
+        gameController = GameObject.FindObjectOfType<GameController>();
+    }
+
 
     private void Update()
     {
@@ -85,11 +90,12 @@ public class SpaceShipController : MonoBehaviour
 
     private void Fire()
     {
-        if (Time.time > fireRate + lastShot)
+        if (Time.time > fireRate + lastShot && gameController.HasBullet())
         {
             for (int i = 0; i < guns.Length; i++)
             {
                 Instantiate(bullet, guns[i].transform.position, Quaternion.identity);
+                gameController.PopBullet();
             }
             lastShot = Time.time;
         }
@@ -128,6 +134,16 @@ public class SpaceShipController : MonoBehaviour
         if (_health <= 0)
         {
             Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Coin")
+        {
+            Debug.Log("Coin Enter");
+            gameController.AddCoin();
+            Destroy(collision.gameObject);
         }
     }
 

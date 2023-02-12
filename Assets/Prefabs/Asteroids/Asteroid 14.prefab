@@ -107,6 +107,7 @@ MonoBehaviour:
   healthSprite:
   - {fileID: 1882296950, guid: 016336cb941fdc94b81f48318731e39c, type: 3}
   - {fileID: 1854387469, guid: 016336cb941fdc94b81f48318731e39c, type: 3}
+  coinSpawner: {fileID: 1693741748268819022, guid: 194c58131b76fc640b3a2a917bc33b39, type: 3}
 --- !u!58 &1647870085745358050
 CircleCollider2D:
   m_ObjectHideFlags: 0

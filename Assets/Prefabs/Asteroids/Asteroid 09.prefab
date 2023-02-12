@@ -108,6 +108,7 @@ MonoBehaviour:
   - {fileID: 1189764311, guid: cf00d25757f26014c96c032f355113d4, type: 3}
   - {fileID: -771119861, guid: cf00d25757f26014c96c032f355113d4, type: 3}
   - {fileID: -1933703735, guid: cf00d25757f26014c96c032f355113d4, type: 3}
+  coinSpawner: {fileID: 1693741748268819022, guid: 194c58131b76fc640b3a2a917bc33b39, type: 3}
 --- !u!58 &3366192363218442984
 CircleCollider2D:
   m_ObjectHideFlags: 0

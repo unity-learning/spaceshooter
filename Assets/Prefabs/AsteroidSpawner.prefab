@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3534313651836379373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3534313651836379362}
+  - component: {fileID: 3534313651836379363}
+  m_Layer: 0
+  m_Name: AsteroidSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3534313651836379362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3534313651836379373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6.26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3534313651836379363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3534313651836379373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6a625954fcf17542ac7066d0d0f7f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroidsPrefab:
+  - {fileID: 6528264411758719762, guid: 42fc4a82fa7f8db489da9afdd0c291d1, type: 3}
+  - {fileID: 5283112945003429125, guid: 532528ba0be74a84682c939dfb28f63f, type: 3}
+  - {fileID: 7188837732350028270, guid: d15ba463ff7579b4bb0033d043582846, type: 3}
+  - {fileID: 2618773581463059313, guid: 4c6b748ac02ca764c8ed78cc8b1a463a, type: 3}
+  - {fileID: 959795601841028166, guid: c7944392db75d7d40965c18370b5a835, type: 3}
+  - {fileID: 7880707980822673022, guid: 2c280fcedb4d2934cae3cc021469d629, type: 3}
+  - {fileID: 7537384749433628530, guid: 2a3591fe3a9b96d48a02a838ff55e987, type: 3}
+  - {fileID: 3366192363218442986, guid: 876cf24f8a970b648af020751a14908d, type: 3}
+  - {fileID: 6771977058280894792, guid: f04a4aa2a9cf91b4997beec330436250, type: 3}
+  - {fileID: 4543503401519980064, guid: 991d375eaa75c344497586e7bb9f3a9f, type: 3}
+  - {fileID: 7091868452513358106, guid: dc716b032294f2c4094c92c81899b893, type: 3}
+  - {fileID: 5229021754954722505, guid: 1656af600dede964aa0f04af8fe6c647, type: 3}
+  - {fileID: 1647870085745358048, guid: c0904542c373bb144b544dc5df39e534, type: 3}
+  - {fileID: 8505290245248643892, guid: 7fca82d9d6f68e44f8b72e9de01d2077, type: 3}
+  timeToSpawn: {x: 0.5, y: 2}
+  xAxisLimitToSpawn: {x: -7.5, y: 7.5}

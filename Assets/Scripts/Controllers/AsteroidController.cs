@@ -10,7 +10,7 @@ public class AsteroidController : MonoBehaviour
     public int health;
     public GameObject explosionPrefab;
     public Sprite[] healthSprite;
-
+    public CoinSpawner coinSpawner;
 
     private Animator anim;
     private string ANIMATION_NAME = "health";
@@ -50,6 +50,11 @@ public class AsteroidController : MonoBehaviour
         if (health <= 0)
         {
             gameController.AddScore(initHealth);
+            int rnd = Random.Range(1, 2);
+            if (rnd == 3)
+            {
+                Instantiate(coinSpawner, transform.position, Quaternion.identity);
+            }
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }

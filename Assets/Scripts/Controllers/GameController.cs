@@ -11,6 +11,9 @@ public class GameController : MonoBehaviour
 
     public HUDTopLeftManager hudTopLeftManager;
     public HUDBulletManager hudBulletManager;
+    public CoinRepository coinRepository;
+    public ScoreRepository scoreRepository;
+    public SpaceShipRepository spaceShipRepository;
 
     private int score; // score of player
     private int bullets = 100;
@@ -45,6 +48,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+        Instantiate(spaceShipRepository.GetCurrentShip(), Vector3.zero, Quaternion.identity);
         score = 1;
         coins = 0;
         bullets = 100;
@@ -52,16 +56,10 @@ public class GameController : MonoBehaviour
         hudBulletManager.SetBulletText(bullets);
     }
 
-
-    private void Update()
-    {
-
-    }
-
     private void OnApplicationQuit()
     {
-        coins = coins + PlayerPrefs.GetInt("coin");
-        PlayerPrefs.SetInt("coin", coins);
+        coinRepository.Push(coins);
+        scoreRepository.Push(score);
     }
 
 
